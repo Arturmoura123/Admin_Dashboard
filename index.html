@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
 </head>
 <body>
     <div class="proj-container">
@@ -13,8 +14,10 @@
                 <input type="text" id="searchInput" placeholder="Search...">
                 <button id="searchButton">Search</button>
                 <div class="notifications">
-                    <div class="bell">bell</div>
-                    <div class="image">placeholder</div>
+                    <div class="bell">
+                        <span class="mdi mdi-bell-outline"></span>
+                    </div>
+                    <div class="image"><span class="mdi mdi-face-man-profile"></span></div>
                     <div class="name">Artur Moura</div>
                 </div>
             </div>
@@ -32,24 +35,94 @@
         </div>
         <div class="sidebar">
             <div class="title-dash">
-                <h1 class="sidebar-component-title">Dashboard</h1>
+                <h1 class="sidebar-component-title"><span class="mdi mdi-view-dashboard"></span>
+                    Dashboard</h1>
             </div>
             <div class="basic-component">
-                <p class="sidebar-component">Home</p>
-                <p class="sidebar-component">Profile</p>
-                <p class="sidebar-component">Messages</p>
-                <p class="sidebar-component">History</p>
-                <p class="sidebar-component">Tasks</p>
-                <p class="sidebar-component">Communities</p>
+                <p class="sidebar-component" > <span class="mdi mdi-home"></span> Home</p>
+                <p class="sidebar-component"><span class="mdi mdi-face-man-profile"></span>
+                    Profile</p>
+                <p class="sidebar-component"><span class="mdi mdi-message"></span>
+                    Messages</p>
+                <p class="sidebar-component"><span class="mdi mdi-history"></span>
+                    History</p>
+                <p class="sidebar-component"><span class="mdi mdi-file-tree"></span>
+                    Tasks</p>
+                <p class="sidebar-component"><span class="mdi mdi-google-circles-communities"></span>
+                    Communities</p>
             </div>
             <div class="security-component">
-                <p class="sidebar-component-setting">Settings</p>
-                <p class="sidebar-component-setting">Support</p>
-                <p class="sidebar-component-setting">Privacy</p>
+                <p class="sidebar-component-setting"><span class="mdi mdi-cog"></span>
+                    Settings</p>
+                <p class="sidebar-component-setting"><span class="mdi mdi-face-agent"></span>
+                    Support</p>
+                <p class="sidebar-component-setting"><span class="mdi mdi-shield-lock"></span>
+                    Privacy</p>
             </div>
         </div>
+
+
         <div class="main-content">
-            <h1>main content</h1>
+            <div class="projects">
+                <div class="project-card">
+                    <h1>Super Cool Project</h1>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendissse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div class="bellow-button">
+                        <span class="mdi mdi-star-check-outline"></span>
+                        <span class="mdi mdi-timer-outline"></span>
+                        <span class="mdi mdi-transit-connection-variant"></span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h1>Super Cool Project</h1>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendissse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div class="bellow-button">
+                        <span class="mdi mdi-star-check-outline"></span>
+                        <span class="mdi mdi-timer-outline"></span>
+                        <span class="mdi mdi-transit-connection-variant"></span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h1>Super Cool Project</h1>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendissse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div class="bellow-button">
+                        <span class="mdi mdi-star-check-outline"></span>
+                        <span class="mdi mdi-timer-outline"></span>
+                        <span class="mdi mdi-transit-connection-variant"></span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h1>Super Cool Project</h1>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendissse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div class="bellow-button">
+                        <span class="mdi mdi-star-check-outline"></span>
+                        <span class="mdi mdi-timer-outline"></span>
+                        <span class="mdi mdi-transit-connection-variant"></span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h1>Super Cool Project</h1>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendissse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div class="bellow-button">
+                        <span class="mdi mdi-star-check-outline"></span>
+                        <span class="mdi mdi-timer-outline"></span>
+                        <span class="mdi mdi-transit-connection-variant"></span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h1>Super Cool Project</h1>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendissse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div class="bellow-button">
+                        <span class="mdi mdi-star-check-outline"></span>
+                        <span class="mdi mdi-timer-outline"></span>
+                        <span class="mdi mdi-transit-connection-variant"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="live-updates">
+                <div class="card" id="announcements"></div>
+                <div class="card" id="trending"></div>
+            </div>    
         </div>
     </div>
 </body>
